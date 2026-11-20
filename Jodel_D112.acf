@@ -21669,7 +21669,7 @@ P acf/_ann_wav_file/count 197
 P acf/_ap_crs_src 0
 P acf/_apt_req_plane 0
 P acf/_asi_is_kts 0
-P acf/_author Claude / plans Richard Ferriere 1999
+P acf/_author Dimitri CHEVAILLER - modele 3D d'origine : Emmanuel Baranger (helijah)
 P acf/_auto_cowl_flaps_EQ 1065353216
 P acf/_auto_engage_BC_deg 0.0
 P acf/_auto_omega_fire 0.0
@@ -21913,7 +21913,7 @@ P acf/_bus_gen_is_on/7 0
 P acf/_bus_gen_is_on/count 8
 P acf/_buses_always_tied 0
 P acf/_bypass_ratio 0.0
-P acf/_callsign L-5 Sentinel
+P acf/_callsign Jodel
 P acf/_camera_fov_zoom 60.0
 P acf/_camera_offset_phi 0.0
 P acf/_camera_offset_psi 0.0
@@ -22704,7 +22704,7 @@ P acf/_cyclic_up_trim_rat 0.0
 P acf/_deg_psi_per_deg_def 12.0
 P acf/_deg_the_per_deg_def 6.0
 P acf/_delta3 0.0
-P acf/_descrip Jodel D112 F-PIIM - 65 ch - modele Plane Maker
+P acf/_descrip Jodel D112 n749 F-PIIM - Aero-club du Bassin Minier - Continental 65 ch
 P acf/_diff_coll_with_hdng 0.0
 P acf/_diff_coll_with_ptch 0.0
 P acf/_diff_coll_with_roll 0.0
@@ -23422,7 +23422,7 @@ P acf/_m_shift_dx 0.0
 P acf/_m_shift_dz 0.0
 P acf/_manual_rad_gyr 0
 P acf/_manual_reversion_rat 0.0
-P acf/_manufacturer Stinson
+P acf/_manufacturer Jodel
 P acf/_mast_bump_cyclic_ailn 0.0
 P acf/_mast_bump_cyclic_roll 0.0
 P acf/_max_CHT 290.0
@@ -23866,7 +23866,7 @@ P acf/_starter_is_air_driven 0
 P acf/_starter_max_rpm_rat 0.050000001
 P acf/_starter_torque_rat 0.300000012
 P acf/_stickshaker 0
-P acf/_studio 
+P acf/_studio LF71DC
 P acf/_sweep_extend_protect 0
 P acf/_sweep_m1 0.0
 P acf/_sweep_m2 0.0
