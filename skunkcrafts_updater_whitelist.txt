@@ -56,7 +56,7 @@ liveries/Helijah (orange)/objects/Jodel_D112_livree.png|1539052393
 objects/Jodel_D112_a65.png|1995243774
 objects/Jodel_D112_cockpit.png|3032106023
 objects/Jodel_D112_engine.obj|3427560937
-objects/Jodel_D112_ext.obj|392114612
+objects/Jodel_D112_ext.obj|3059601914
 objects/Jodel_D112_glass.obj|3195808207
 objects/Jodel_D112_glass.png|640518483
 objects/Jodel_D112_glass_in.obj|1401776889
