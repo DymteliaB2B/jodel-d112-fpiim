@@ -1,0 +1,42 @@
+{31b50858-4bd1-4e70-959b-0ed470bd4839} event:/model/cessna_172sp/_UNUSED/baggage_door/close
+{096c0338-ac88-4daf-990e-837631071e97} event:/model/cessna_172sp/_UNUSED/baggage_door/open
+{1e720d68-55c4-48bd-8632-dbf16cfc0dd8} event:/model/cessna_172sp/_UNUSED/fan
+{e0d734b3-0c7c-47c0-83bf-4feffc9f3411} event:/model/cessna_172sp/_UNUSED/main
+{c2e165f8-eb20-4ceb-926d-b35da28effc0} event:/model/cessna_172sp/_UNUSED/nose
+{d8d94d02-ae30-4c9e-aa36-c1625ad61073} event:/model/cessna_172sp/_UNUSED/rattle
+{b234695f-a4bb-4551-86b3-1705ba652a00} event:/model/cessna_172sp/_UNUSED/system_start
+{fa69984c-fde0-4cdc-9efc-39d8766790dc} event:/model/cessna_172sp/_UNUSED/yoke
+{93293653-3f0d-4415-bf94-2f2388299c21} event:/model/cessna_172sp/cockpit/pushbutton/garmin
+{4d36f791-5b16-4d4d-b2df-daa4888d05fa} event:/model/cessna_172sp/cockpit/pushbutton/garmin_small
+{3d33b426-6c72-4ba9-a6da-44b4cabc62cb} event:/model/cessna_172sp/cockpit/rotary_knob_detent/large
+{b019ffa1-c2b6-4997-a33a-cbe0415c568d} event:/model/cessna_172sp/cockpit/rotary_knob_detent/small
+{eeeef345-349e-4ba1-9ab6-3682eb09781c} event:/model/cessna_172sp/cockpit/toggle/metal
+{60f5408f-7a5f-4f03-92da-d163f203e4d0} event:/model/cessna_172sp/cockpit/toggle/plastic
+{83f5c185-21f5-47a6-b084-5b9d21d43a5c} event:/model/cessna_172sp/cockpit/gyro
+{f16222a0-e6b7-4b54-89d5-7f7cff1f8243} event:/model/cessna_172sp/cockpit/stall_horn
+{faffee80-b775-4c7c-a1f2-6a3bcc77b294} event:/model/cessna_172sp/door/close
+{dab1a043-0e27-470e-afda-44ad017a3708} event:/model/cessna_172sp/door/open
+{1a31e37d-d229-4f28-a02d-73c8df9b837d} event:/model/cessna_172sp/flaps/lower
+{e68197a0-9b91-4218-89ca-31a4e1f625df} event:/model/cessna_172sp/flaps/raise
+{ba06c901-9d41-4a7c-ab29-8c97d48be191} event:/model/cessna_172sp/wheel/skid
+{17261732-76e1-4d0b-9bdc-62a834732af8} event:/model/cessna_172sp/wheel/surface
+{690bc571-e0cf-4f72-970d-19ed81091c9d} event:/model/cessna_172sp/airspeed_noise
+{a5b8d7bc-8098-4d46-828d-71991b0de687} event:/model/cessna_172sp/engine
+{f00e9fef-cf4f-445f-a7e1-2f550fe4efe2} event:/model/cessna_172sp/fuelpump
+{609ac4dc-c430-4fab-9aaa-9a232710a174} event:/model/cessna_172sp/impact
+{f1ef0bbe-2a97-47ab-8154-707dd2ee54dc} event:/model/cessna_172sp/starter
+{d7c80686-6318-4c9d-9535-02acfabd69a9} event:/model/cessna_172sp/wing_strobe
+{9f08114d-36ec-44cc-b8bf-b2babda09f9e} bus:/
+{7f7c05a4-e05a-4d44-94fe-d4691147a9b7} bus:/Master
+{e3492bec-f854-4fbb-b2bc-23586269032e} bus:/Master/Copilot
+{a5a85a81-afd5-4425-9dc2-6e50f7776e6a} bus:/Master/Exterior Processed
+{06db5351-0b2f-4648-b97a-a33b40a00e11} bus:/Master/Exterior Processed/Aircraft
+{b6c156f1-9861-405c-a622-92b2ab8010a7} bus:/Master/Exterior Processed/Environment
+{8dbbc9d7-a954-4ed0-b1f1-f8111b03cbd1} bus:/Master/Exterior Unprocessed
+{751f5066-4651-4afb-a410-4cb9db0894c9} bus:/Master/Interior
+{d8526059-b27c-4eae-9b14-a1ee1cb3dfa1} bus:/Master/Radios
+{77575f3b-b9cd-4bff-9056-637cff744a14} bus:/Master/UI
+{d3afb3d7-5355-413b-8897-90932f89c364} snapshot:/in_cockpit_door_right_open
+{47d527df-7792-42e3-a7f3-d4da8520638c} snapshot:/in_cockpit_door_left_open
+{77d2d20d-00d6-4aec-a555-045732bd78cb} snapshot:/in_cockpit
+{eddaadd3-0de5-4954-980f-d2f99736c9fe} bank:/Master Bank

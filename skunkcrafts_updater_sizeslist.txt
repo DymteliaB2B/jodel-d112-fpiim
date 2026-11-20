@@ -1,0 +1,74 @@
+Jodel_D112.acf|771716
+Jodel_D112_cockpit.obj|4731226
+Jodel_D112_icon11.png|186682
+Jodel_D112_icon11_thumb.png|14456
+cockpit/-PANELS-/PANEL.png|296386
+cockpit/buttons/fuel/but_fuel_012-1.png|6544
+cockpit/buttons/fuel/but_fuel_012.png|3772
+cockpit/engine/engine round/engine_CHT-2.png|582
+cockpit/engine/engine round/engine_CHT.png|18733
+cockpit/engine/engine round/engine_CHT.txt|268
+cockpit/engine/engine round/engine_RPM_engine-2.png|1578
+cockpit/engine/engine round/engine_RPM_engine.png|26201
+cockpit/engine/engine round/engine_RPM_engine.txt|266
+cockpit/engine/engine round/engine_batt_AMPS-2.png|3305
+cockpit/engine/engine round/engine_batt_AMPS.png|27720
+cockpit/engine/engine round/engine_batt_AMPS.txt|268
+cockpit/engine/engine round/engine_oilT_oilP-2.png|4160
+cockpit/engine/engine round/engine_oilT_oilP.png|25373
+cockpit/engine/engine round/engine_oilT_oilP.txt|266
+cockpit/fuel/fuel_round-2.png|2747
+cockpit/fuel/fuel_round-4.png|2835
+cockpit/fuel/fuel_round.png|15272
+cockpit/generic/AS_Needle.png|505
+cockpit/generic/Airspeed.png|4303
+cockpit/generic/gen_handle_transp-1.png|2821
+cockpit/generic/gen_handle_transp.png|2868
+cockpit/generic/gen_rotary_magnetos-1.png|15671
+cockpit/generic/gen_rotary_magnetos.png|29146
+cockpit/handles/han_primer-1.png|3724
+cockpit/handles/han_primer.png|5662
+cockpit/handles/han_primer.txt|63
+cockpit/handles/han_thro_linear-1.png|1269
+cockpit/handles/han_thro_linear.png|17523
+cockpit/handles/han_thro_linear.txt|64
+cockpit/radios/NAV COM/rad_navcom1_GA-4.png|3474
+cockpit/radios/NAV COM/rad_navcom1_GA.png|19259
+cockpit/radios/transponder/transponder_GA-1.png|4928
+cockpit/radios/transponder/transponder_GA-2.png|3097
+cockpit/radios/transponder/transponder_GA-4.png|3436
+cockpit/radios/transponder/transponder_GA.png|13561
+cockpit/standard six/airspeed/asi_adap_GA-2.png|4051
+cockpit/standard six/airspeed/asi_adap_GA.png|25718
+cockpit/standard six/airspeed/asi_adap_GA.txt|266
+cockpit/standard six/altimeters/alt_GA-1.png|4505
+cockpit/standard six/altimeters/alt_GA-2.png|10681
+cockpit/standard six/altimeters/alt_GA-3.png|5100
+cockpit/standard six/altimeters/alt_GA.png|21544
+cockpit/standard six/altimeters/alt_GA.txt|135
+cockpit/standard six/turn slip/needle-2.png|3388
+cockpit/standard six/turn slip/needle.png|21304
+cockpit/standard six/turn slip/needle.txt|307
+fmod/GUIDs.txt|3228
+fmod/Jodel_D112.snd|7583
+fmod/Master Bank.bank|7090848
+liveries/Helijah (orange)/objects/Jodel_D112_livree.png|1129381
+objects/Jodel_D112_a65.png|50175
+objects/Jodel_D112_cockpit.png|2198501
+objects/Jodel_D112_engine.obj|4669500
+objects/Jodel_D112_ext.obj|15248551
+objects/Jodel_D112_glass.obj|606692
+objects/Jodel_D112_glass.png|141
+objects/Jodel_D112_glass_in.obj|579911
+objects/Jodel_D112_livree.png|5226181
+objects/Jodel_D112_livree_NML.png|75372
+objects/Jodel_D112_propdisc.obj|10249
+objects/Jodel_D112_propdisc.png|5064
+sounds/contact/skid_dry.wav|120952
+sounds/engine/engn1_inn.wav|1667116
+sounds/engine/engn1_out.wav|1665408
+sounds/engine/prop1.wav|210548
+sounds/engine/star1.wav|56640
+sounds/systems/avionics.wav|1368
+sounds/systems/click.wav|42086
+sounds/systems/flap.wav|55170

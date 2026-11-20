@@ -1,0 +1,234 @@
+A
+1000
+ACF_SOUNDS
+
+# Jodel D112 F-PIIM : genere par son_fpiim.py (banque FMOD du Cessna 172SP de Laminar)
+
+##### espace sonore de la cabine : depuis l'interieur, les bruits exterieurs sont etouffes
+BEGIN_SOUND_SPACE
+	SOUND_INDEX 0
+	BLEND_DEPTH 0.03
+	AABB -0.53 -0.45 1.25 0.53 0.62 2.95
+END_SOUND_SPACE
+
+##### instantanes de mixage : portes ouvertes = son exterieur qui revient fort
+
+BEGIN_SOUND_ATTACHMENT
+	SNAPSHOT_NAME /in_cockpit_door_left_open
+	EVENT_START_COND sim/flightmodel2/misc/door_open_ratio[0] > 0.0
+	EVENT_END_COND sim/flightmodel2/misc/door_open_ratio[0] == 0.0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	SNAPSHOT_NAME /in_cockpit_door_right_open
+	EVENT_START_COND sim/flightmodel2/misc/door_open_ratio[1] > 0.0
+	EVENT_END_COND sim/flightmodel2/misc/door_open_ratio[1] == 0.0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	SNAPSHOT_NAME /in_cockpit
+	EVENT_START_COND sim/operation/sound/inside_ratio[0] != 0.0
+	EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+##### vent, moteur, demarreur
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/airspeed_noise
+	VEH_PART cockpit 0
+	EVENT_START_COND sim/flightmodel/position/true_airspeed >= 1
+	EVENT_END_COND sim/flightmodel/position/true_airspeed < 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/engine
+	VEH_PART engine 0
+	PARAM_DREF_IDX 0
+	EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/flightmodel2/engines/engine_rotation_speed_rad_sec[0] > 1
+	EVENT_END_COND sim/flightmodel2/engines/engine_rotation_speed_rad_sec[0] < 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/starter
+	VEH_PART engine 0
+	PARAM_DREF_IDX 0
+	EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/flightmodel2/engines/starter_is_running[0] == 1
+END_SOUND_ATTACHMENT
+
+##### roues (0 = roulette de queue, 1-2 = train principal)
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/wheel/skid
+	VEH_PART tire 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/gear/tire_skid_ratio[0] > 0
+	EVENT_END_COND sim/flightmodel2/gear/tire_skid_ratio[0] == 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/wheel/surface
+	VEH_PART tire 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[0] > 1
+	EVENT_START_COND sim/flightmodel2/gear/on_ground[0] == 1
+	EVENT_END_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[0] < 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/impact
+	VEH_PART tire 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/gear/total_deflection_rate[0] > 1
+	EVENT_START_COND sim/flightmodel2/gear/tire_vertical_deflection_mtr[0] > 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/wheel/skid
+	VEH_PART tire 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/gear/tire_skid_ratio[1] > 0
+	EVENT_END_COND sim/flightmodel2/gear/tire_skid_ratio[1] == 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/wheel/surface
+	VEH_PART tire 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[1] > 1
+	EVENT_START_COND sim/flightmodel2/gear/on_ground[1] == 1
+	EVENT_END_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[1] < 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/impact
+	VEH_PART tire 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/gear/total_deflection_rate[1] > 1
+	EVENT_START_COND sim/flightmodel2/gear/tire_vertical_deflection_mtr[1] > 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/wheel/skid
+	VEH_PART tire 2
+	PARAM_DREF_IDX 2
+	EVENT_START_COND sim/flightmodel2/gear/tire_skid_ratio[2] > 0
+	EVENT_END_COND sim/flightmodel2/gear/tire_skid_ratio[2] == 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/wheel/surface
+	VEH_PART tire 2
+	PARAM_DREF_IDX 2
+	EVENT_START_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[2] > 1
+	EVENT_START_COND sim/flightmodel2/gear/on_ground[2] == 1
+	EVENT_END_COND sim/flightmodel2/gear/tire_rotation_speed_rad_sec[2] < 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/impact
+	VEH_PART tire 2
+	PARAM_DREF_IDX 2
+	EVENT_START_COND sim/flightmodel2/gear/total_deflection_rate[2] > 1
+	EVENT_START_COND sim/flightmodel2/gear/tire_vertical_deflection_mtr[2] > 0
+END_SOUND_ATTACHMENT
+
+##### portes (ouverture vers l'avant, charniere sur le montant avant)
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/door/open
+	VEH_XYZ -0.540 0.300 1.650
+	EVENT_START_COND sim/cockpit2/switches/door_open[0] == 1
+	EVENT_START_COND sim/flightmodel2/misc/door_open_ratio[0] > 0.05
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/door/close
+	VEH_XYZ -0.540 0.300 1.650
+	EVENT_START_COND sim/cockpit2/switches/door_open[0] == 0
+	EVENT_START_COND sim/flightmodel2/misc/door_open_ratio[0] < 0.05
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/door/open
+	VEH_XYZ 0.540 0.300 1.650
+	EVENT_START_COND sim/cockpit2/switches/door_open[1] == 1
+	EVENT_START_COND sim/flightmodel2/misc/door_open_ratio[1] > 0.05
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/door/close
+	VEH_XYZ 0.540 0.300 1.650
+	EVENT_START_COND sim/cockpit2/switches/door_open[1] == 0
+	EVENT_START_COND sim/flightmodel2/misc/door_open_ratio[1] < 0.05
+END_SOUND_ATTACHMENT
+
+##### clics du cockpit F-PIIM
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/toggle/metal
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/battery_on[0] != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/toggle/metal
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/avionics_power_on != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/toggle/metal
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/generic_lights_switch[31] != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/toggle/plastic
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/generator_on[0] != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/toggle/plastic
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/radios/actuators/com1_power != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/rotary_knob_detent/large
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/engine/actuators/ignition_key[0] != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/rotary_knob_detent/small
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/radios/actuators/transponder_mode != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/rotary_knob_detent/small
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/radios/actuators/transponder_code != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/rotary_knob_detent/small
+	VEH_PART cockpit 0
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/radios/actuators/com1_standby_frequency_hz_833 != 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/pushbutton/garmin_small
+	VEH_PART cockpit 0
+	EVENT_CMND_DOWN sim/radios/com1_standy_flip
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /model/cessna_172sp/cockpit/pushbutton/garmin_small
+	VEH_PART cockpit 0
+	EVENT_CMND_DOWN sim/transponder/transponder_ident
+END_SOUND_ATTACHMENT
+
