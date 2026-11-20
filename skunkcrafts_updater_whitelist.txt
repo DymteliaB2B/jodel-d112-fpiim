@@ -1,7 +1,7 @@
 Jodel_D112.acf|2262946345
 Jodel_D112_cockpit.obj|3897413506
-Jodel_D112_icon11.png|1764119802
-Jodel_D112_icon11_thumb.png|2462112489
+Jodel_D112_icon11.png|1578244511
+Jodel_D112_icon11_thumb.png|4232126252
 cockpit/-PANELS-/PANEL.png|2284318603
 cockpit/buttons/fuel/but_fuel_012-1.png|2635449466
 cockpit/buttons/fuel/but_fuel_012.png|1713236185
