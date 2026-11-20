@@ -1,0 +1,29 @@
+JODEL D112 F-PIIM pour X-Plane 11 - version 0.9.3 (21/11/2026)
+==========================================================
+
+Jodel D112 n°749, F-PIIM, de l'Aéro-club du Bassin Minier (restauré par ses membres en 2020).
+
+INSTALLATION
+  Copier le dossier du zip dans  X-Plane 11/Aircraft/  (il peut etre renomme "Jodel D112")
+  Testé sur X-Plane 11.50 et suivantes.
+
+CONTENU
+  - Modèle 3D complet, livrée F-PIIM 4K (livrée orange d'origine disponible dans le menu des livrées)
+  - Cockpit 3D du F-PIIM, commandes cliquables, démarrage "cold & dark" possible
+  - Portes animées (poignée sur le montant arrière, ou commandes Door #1 / Door #2)
+  - Sons FMOD : moteur étouffé en cabine, plus fort portes ouvertes
+  - Modèle de vol : cotes Jodel officielles, fiche F-PIIM
+      masse à vide 327 kg, masse maxi 530 kg, Continental 65 ch à 2300 tr/min,
+      57 L de 100LL, VNE 245 km/h, croisière 175 km/h, 25 L/h
+
+DÉMARRAGE MOTEUR ARRÊTÉ
+  1. Fusible ALT 16A enfoncé, batterie sur marche
+  2. Tirette Carbu poussée (mélange riche), Récho poussée, gaz entrouverts
+  3. Magnétos sur 1+2
+  4. Maintenir le bouton DÉMARREUR
+  5. Puis RADIO, VHF et transpondeur
+
+CRÉDITS
+  Modèle 3D d'origine : Emmanuel Baranger (helijah) - http://helijah.free.fr
+  Modèle final X-Plane : Dimitri CHEVAILLER
+  Sons : banque FMOD du Cessna 172SP de Laminar Research (X-Plane 11)
