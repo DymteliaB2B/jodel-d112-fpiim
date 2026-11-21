@@ -1,4 +1,4 @@
-JODEL D112 F-PIIM pour X-Plane 11 - version 0.9.3 (21/11/2026)
+JODEL D112 F-PIIM pour X-Plane 11 - version 0.9.4 (21/11/2026)
 ==========================================================
 
 Jodel D112 n°749, F-PIIM, de l'Aéro-club du Bassin Minier (restauré par ses membres en 2020).

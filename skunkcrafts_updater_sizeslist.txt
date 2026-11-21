@@ -1,7 +1,7 @@
 Jodel_D112.acf|771772
-Jodel_D112_cockpit.obj|4731226
-Jodel_D112_icon11.png|214075
-Jodel_D112_icon11_thumb.png|23807
+Jodel_D112_cockpit.obj|5239622
+Jodel_D112_icon11.png|160746
+Jodel_D112_icon11_thumb.png|17511
 cockpit/-PANELS-/PANEL.png|296386
 cockpit/buttons/fuel/but_fuel_012-1.png|6544
 cockpit/buttons/fuel/but_fuel_012.png|3772
@@ -55,14 +55,14 @@ fmod/Master Bank.bank|7090848
 liveries/Helijah (orange)/objects/Jodel_D112_livree.png|1129381
 objects/Jodel_D112_a65.png|50175
 objects/Jodel_D112_cockpit.png|2198501
-objects/Jodel_D112_engine.obj|4669500
-objects/Jodel_D112_ext.obj|15253645
-objects/Jodel_D112_glass.obj|606692
+objects/Jodel_D112_engine.obj|2265652
+objects/Jodel_D112_ext.obj|11609663
+objects/Jodel_D112_glass.obj|278356
 objects/Jodel_D112_glass.png|141
-objects/Jodel_D112_glass_in.obj|579911
-objects/Jodel_D112_livree.png|5226181
-objects/Jodel_D112_livree_NML.png|75372
-objects/Jodel_D112_propdisc.obj|10249
+objects/Jodel_D112_glass_in.obj|241581
+objects/Jodel_D112_livree.png|5814698
+objects/Jodel_D112_livree_NML.png|1030401
+objects/Jodel_D112_propdisc.obj|3926
 objects/Jodel_D112_propdisc.png|5064
 sounds/contact/skid_dry.wav|120952
 sounds/engine/engn1_inn.wav|1667116
