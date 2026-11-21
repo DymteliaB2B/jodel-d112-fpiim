@@ -1,5 +1,5 @@
-Jodel_D112.acf|3407403257
-Jodel_D112_cockpit.obj|1105151532
+Jodel_D112.acf|1684117920
+Jodel_D112_cockpit.obj|559117948
 Jodel_D112_icon11.png|3468387339
 Jodel_D112_icon11_thumb.png|1837600802
 cockpit/-PANELS-/PANEL.png|2284318603
@@ -54,16 +54,23 @@ fmod/Jodel_D112.snd|173696355
 fmod/Master Bank.bank|3610097656
 liveries/Helijah (orange)/objects/Jodel_D112_livree.png|1539052393
 objects/Jodel_D112_a65.png|1995243774
-objects/Jodel_D112_cockpit.png|3032106023
+objects/Jodel_D112_cockpit.png|296586429
 objects/Jodel_D112_engine.obj|1430225946
 objects/Jodel_D112_ext.obj|1198465239
 objects/Jodel_D112_glass.obj|442598209
 objects/Jodel_D112_glass.png|640518483
-objects/Jodel_D112_glass_in.obj|573553549
-objects/Jodel_D112_livree.png|4014039998
-objects/Jodel_D112_livree_NML.png|1202978856
+objects/Jodel_D112_glass_in.obj|1133195515
+objects/Jodel_D112_livree.png|919831106
+objects/Jodel_D112_livree_NML.png|1610436381
 objects/Jodel_D112_propdisc.obj|554951846
 objects/Jodel_D112_propdisc.png|3358347198
+plugins/xlua/64/lin.xpl|1715446780
+plugins/xlua/64/mac.xpl|1271418909
+plugins/xlua/64/win.xpl|923888697
+plugins/xlua/LICENSE_XLua.txt|2748835496
+plugins/xlua/init.lua|733805643
+plugins/xlua/scripts/jodel_calepin/jodel_calepin.lua|57441369
+plugins/xlua/scripts/jodel_casque/jodel_casque.lua|305124422
 sounds/contact/skid_dry.wav|4126951176
 sounds/engine/engn1_inn.wav|2275908107
 sounds/engine/engn1_out.wav|3302633203

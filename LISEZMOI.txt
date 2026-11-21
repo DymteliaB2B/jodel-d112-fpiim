@@ -1,16 +1,25 @@
-JODEL D112 F-PIIM pour X-Plane 11 - version 0.9.5 (21/11/2026)
+JODEL D112 F-PIIM pour X-Plane 11 - version 0.9.6 (21/11/2026)
 ==========================================================
 
 Jodel D112 n°749, F-PIIM, de l'Aéro-club du Bassin Minier (restauré par ses membres en 2020).
 
 INSTALLATION
   Copier le dossier du zip dans  X-Plane 11/Aircraft/  (il peut etre renomme "Jodel D112")
+  Le placer directement dans Aircraft/, pas dans un sous-dossier : le pilote visible en vue
+  extérieure est celui du Cessna 172 de X-Plane, chargé depuis Aircraft/Laminar Research/.
   Testé sur X-Plane 11.50 et suivantes.
 
 CONTENU
   - Modèle 3D complet, livrée F-PIIM 4K (livrée orange d'origine disponible dans le menu des livrées)
   - Cockpit 3D du F-PIIM, commandes cliquables, démarrage "cold & dark" possible
   - Portes animées (poignée sur le montant arrière, ou commandes Door #1 / Door #2)
+  - Pilote en vue extérieure (celui du Cessna 172 de X-Plane, masqué dans le cockpit)
+  - Calepin sur la cuisse (inter HAUT-PARLEUR / CASQUE) : carburant et charge, masse totale, Vr,
+    option "Casque anti-bruit" qui atténue le moteur dans la cabine (plugin XLua de Laminar inclus,
+    licence MIT : plugins/xlua/LICENSE_XLua.txt)
+  - Passagère en place droite en vue extérieure (la pilote de l'Aerolite 103 de X-Plane, chargée
+    depuis Aircraft/Laminar Research/, comme le pilote)
+  - Calepin page 2 : avec le concours de l'Aéro-Club du Bassin Minier
   - Sons FMOD : moteur étouffé en cabine, plus fort portes ouvertes
   - Modèle de vol : cotes Jodel officielles, fiche F-PIIM
       masse à vide 327 kg, masse maxi 530 kg, Continental 65 ch à 2300 tr/min,
