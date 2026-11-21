@@ -56,12 +56,12 @@ liveries/Helijah (orange)/objects/Jodel_D112_livree.png|1129381
 objects/Jodel_D112_a65.png|50175
 objects/Jodel_D112_cockpit.png|2198501
 objects/Jodel_D112_engine.obj|2265652
-objects/Jodel_D112_ext.obj|11609663
+objects/Jodel_D112_ext.obj|11683301
 objects/Jodel_D112_glass.obj|278356
 objects/Jodel_D112_glass.png|141
 objects/Jodel_D112_glass_in.obj|241581
-objects/Jodel_D112_livree.png|5814698
-objects/Jodel_D112_livree_NML.png|1030401
+objects/Jodel_D112_livree.png|5807417
+objects/Jodel_D112_livree_NML.png|1032168
 objects/Jodel_D112_propdisc.obj|3926
 objects/Jodel_D112_propdisc.png|5064
 sounds/contact/skid_dry.wav|120952
